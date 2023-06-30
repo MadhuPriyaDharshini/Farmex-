@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Feedback</title>
+
+    
+    <!-- MDB icon -->
+    
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="MDB5-STANDARD-UI-KIT-Free-5.0.0/css/mdb.min.css" />
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+        
+        * {
+          font-family: Open Sans;
+        }
+        body {
+          background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+        } 
+        
+        
+        
+        * {
+          /*padding: 1rem 0.5rem;*/
+          margin:0;
+          box-sizing: border-box;
+        }
+        ul.nav-bar{
+          text-decoration: none;
+        }
+        a.nav-links{
+          display:inline-block;
+          /*text-align:center;*/
+          padding:14px;
+          color:white;
+          text-decoration: none;
+          font-size:17px;
+          font-weight: bolder;
+        }
+        
+        
+        nav ul li a:hover{
+          background-color: #444444;
+          border-bottom: 2px solid #61DAFB;;
+        }
+        
+       
+        .navbar-toggler .icon-bar {
+          display: block;
+          width: 22px;
+          height: 2px;
+          border-radius: 1px;
+          background-color: aliceblue;
+        }
+        </style>
+  </head>
+  <body >
+    
+  <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="farmer_frd.jpeg" alt="Logo" style="width:40px;" class="rounded-pill"></a>
+
+        <a  class="navbar-brand" href="#"><h3 class="nav_h3" style="color:darkturquoise">FARMEX</h3></a>
+      </a>
+      <!--<div className="bn40div">
+        <a class="bn40" href="/">FARMEX</a>
+      </div>-->
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+        <!-- <li class="nav-item ">
+          <a href="/" class="nav-link text-white px-1 py-1 navbar-bold-markup" alt="Link to Welcome to the Zoo Page"
+            title="Link to Welcome to the Zoo Page" aria-label="Link to Welcome to the Zoo Page">Nav</a></a>
+
+        </li>-->
+        <li class="nav-item ">
+          <a href="userinfo.html" class="nav-links " aria-current="page">Home</a>
+        </li>
+        <li class="nav-item ">
+        <li>
+          <a href="Help.html" class="nav-links ">Help</a>
+        </li>
+        <li class="nav-item">
+          <a href="news.html" class="nav-links "> News
+
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="sign_in.html" class="nav-links " tabindex="-1" aria-disabled="true"> Login
+
+          </a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <div id="google_translate_element"></div>
+      </form>
+    </div>
+    </div>
+
+
+  </nav>
+    <!-- Start your project here-->
+    <div class="container" style=" background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);box-shadow: #444444;">
+     <!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4" style="color:black">FeedBack Form</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5" style="color:black">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="" style="color:black">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="" style="color:black">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="" style="color:black">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message" style="color:black">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x" style="color:black"></i>
+                    <p style="color:black">TCE, Madurai, INDIA</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x" style="color:black"></i>
+                    <p style="color:black">+91 9876543210</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x" style="color:black"></i>
+                    <p style="color:black">farmexteam@support.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+        </div>
+     
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="/MDB5-STANDARD-UI-KIT-Free-5.0.0/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+   
+    <script type="text/javascript">
+      function googleTranslateElementInit () {
+        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>

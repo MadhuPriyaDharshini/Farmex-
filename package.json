@@ -1,0 +1,44 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "gcss": "^0.1.53",
+    "jsonwebtoken": "^8.5.1",
+    "less": "^4.1.3",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.7.0",
+    "multer": "^1.4.5-lts.1",
+    "node-input-validator": "^4.5.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "path-posix": "^1.0.0"
+  },
+  "proxy": "http://localhost:5000",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LokeshDanapal/Farmex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LokeshDanapal/Farmex/issues"
+  },
+  "homepage": "https://github.com/LokeshDanapal/Farmex#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "description": ""
+}
